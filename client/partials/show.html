@@ -1,0 +1,9 @@
+<div ng-controller = "showcontroller">
+  <ul>
+    <li>First Name: {{friendInfo.first_name}}</li>
+    <li>Last Name: {{friendInfo.last_name}}</li>
+    <li>Birthday: {{friendInfo.birthday | date}}</li>
+    <li>Created at: {{friendInfo.createdAt | date: 'short'}}</li>
+  </ul>
+<button type="button" ng-click='goBack()'>Go Back</button>
+</div>

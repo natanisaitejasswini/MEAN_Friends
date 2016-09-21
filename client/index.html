@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Full_FriendsProject</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" >
+	<link rel="stylesheet" type="text/css" href="static/stylesheets/style.css">
+	<!-- Bower Components -->
+	<script src='angular/angular.js' charset= "utf-8"></script>
+	<script src='angular-route/angular-route.js' charset= "utf-8"></script>
+  	<!-- End Bower Components -->
+  	<!-- Scripts Tags Including factories and controllers -->
+  	<script src="assets/app.js" charset="utf-8"></script>
+  	<!-- Factories First -->
+  	<script src='assets/factories/friendsfactory.js'></script> 
+  	<script src='assets/controllers/editcontroller.js'></script>
+  	<script src='assets/controllers/newcontroller.js'></script>
+  	<script src='assets/controllers/listcontroller.js'></script>
+  	<script src='assets/controllers/showcontroller.js'></script>
+</head>
+<body>
+  <!-- Views Rendering -->
+	<div ng-app='app'>
+	    <div ng-view=""></div>
+	</div>
+  </div>
+</body>
+</html>
